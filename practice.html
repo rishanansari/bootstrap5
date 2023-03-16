@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Bootstrap 5</title>
+</head>
+<body>
+    <!-- heading tags ========= class--- h1 , h2 , h3 ... -->
+    <h1>
+        The Bootstrap Tutorials
+    </h1>
+    <h2>
+        tag h2 use  
+    </h2>
+    <h3 class="h5">
+        tag h3 but bootstrap class h5 so look like h5 tag
+    </h3>
+
+    <!-- display heading class  -->
+
+        <h1>display heading 1 with no class</h1>
+        <h2 class="display-4">h2 display heading class 4</h2>
+        <h4 class="display-1">h4 display heading class 1</h4>
+        <h6 class="display-6">h6 display heading class 6</h6>
+
+        <!-- lead text use for paragraph like blogpost and printing writting etc and alignment  -->
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<p class="lead"> lead Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<p class="lead text-center"> lead with center Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<p class="lead text-end"> lead with center Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<p class="lead text-start"> lead with center Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+<!-- text decoration and font weight -->
+<p class="text-decoration-underline">this is underline text</p>
+<small> this is small tag us efor text</small>
+<p class="text-decoration-line-through"> this is line through para</p>
+<p class="fw-bold"> font wieght bold</p>
+
+<!-- text color  -->
+<p class="text-primary">This is primary color text</p>
+<p class="text-secondary">This is secondary color text</p>
+<p class="text-danger">This is danger color text</p>
+<p class="text-warning">This is warning color text</p>
+<p class="text-info">This is info color text</p>
+<p class="text-light">This is light color text</p>
+<p class="text-muted">This is dark (muted to gray) color text</p>
+
+<!-- background colors -->
+<p class="text-white bg-danger">tex white with bg danger</p>
+<p class="text-white bg-primary">white text with bg primary</p>
+
+<!-- button style  -->
+<!-- button basic  -->
+<button class="btn btn-success"> success button</button>
+<button class="btn btn-primary"> primary button</button>
+<button class="btn btn-danger"> danger button</button>
+
+<!-- button as anchor tags  -->
+<h2>anchor tag like button</h2>
+
+<a href="" class="btn btn-info"> anchor info</a>
+<a href="" class="btn btn-warning"> anchor warning</a>
+
+<!-- button size  -->
+<h2>size of buttons</h2>
+<button class="btn btn-lg btn-primary">large primary button</button>
+<button class="btn btn-sm btn-success">small success button</button>
+
+<!-- button outline  -->
+<h2>button outline </h2>
+<button class="btn btn-lg btn-outline-danger"> outline danger large</button>
+<button class="btn btn-sm btn-outline-secondary"> outline secondary small</button>
+
+<!-- button groups -->
+<h2>button groups</h2>
+<div class="btn-group">
+    <a href="" class="btn btn-primary">grp primary</a>
+    <a href="" class="btn btn-danger">grp danger</a>
+    <a href="" class="btn btn-warning">grp warning</a>
+</div>
+
+
+<!-- utilities in bootstrap  -->
+<!-- margin and paddings -->
+<h2>margins and paddings</h2>
+<h3>from 1 to 5 each number is 0.25 rem , like m-1 , p-1 </h3>
+<div class="bg-warning m-5">margin all side</div>
+<div class="bg-danger m-5 p-5">margin all side</div>
+<h4>my-1 , mx-1 , py an dpx like directions</h4>
+<div class="bg-info mx-5 py-4">margin X padding Y</div>
+<h4>margin/padding  end start top bottom</h4>
+<div class="bg-warning mt-5 me-1 pb-4">margin individuals sides</div>
+
+
+<h3>border property</h3>
+
+<div class="p-3 border m-5">border default</div>
+<div class="p-3 m-5 border border-danger border-2 ">border p-3 m-5 border border-danger border-2</div>
+<div class="p-3 m-5 border-top border-bottom border-warning border-5">border p-3 m-5 border-top border-bottom border-warning border-5</div>
+<div class="p-3 rounded border border-5 m-5">border p-3 rounded border border-5 m-5</div>
+<div class="p-3 rounded-pill border bg-info m-5">border p-3 rounded-pill border bg-info m-5</div>
+<div class="p-3 rounded-pill border-top border-dark border-2 m-5">border p-3 rounded-pill border-top border-dark border-2 m-5</div>
+
+<h3>box shadow</h3>
+<div class="p-3 m-5 shadow border border-warning"> this is medium shadow p-3 m-5 shadow border border-warning</div>
+<div class="p-3 m-5 shadow-lg"> this is large shadow p-3 m-5 shadow-lg</div>
+<div class="p-3 m-5 shadow-sm"> this is small shadow</div>
+
+
+<h2>bootstrap containers</h2>
+<div class="container border border-info my-4">
+    <h2>normal container taking container in centre of different screen sizes</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque distinctio quos, rerum ea sit eaque nesciunt aspernatur id consequatur laudantium voluptates voluptatum cumque, alias molestias facere officia! Sapiente aliquid ullam tenetur eaque adipisci quasi repudiandae laborum ea nobis. Officiis repudiandae eum debitis iure at quam doloremque. Architecto, iusto. Dolorum, eligendi?</p>
+</div>
+<div class="container-fluid border border-dark my-4">
+    <h2>100% container for all screen sizes</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque distinctio quos, rerum ea sit eaque nesciunt aspernatur id consequatur laudantium voluptates voluptatum cumque, alias molestias facere officia! Sapiente aliquid ullam tenetur eaque adipisci quasi repudiandae laborum ea nobis. Officiis repudiandae eum debitis iure at quam doloremque. Architecto, iusto. Dolorum, eligendi?</p>
+</div>
+<div class="container-lg border border-danger my-4">
+    <h2>100% large container untill the specific screen sizes</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque distinctio quos, rerum ea sit eaque nesciunt aspernatur id consequatur laudantium voluptates voluptatum cumque, alias molestias facere officia! Sapiente aliquid ullam tenetur eaque adipisci quasi repudiandae laborum ea nobis. Officiis repudiandae eum debitis iure at quam doloremque. Architecto, iusto. Dolorum, eligendi?</p>
+</div>
+<div class="container-xl border border-info my-4">
+    <h2>100% xtra large container untill the specific screen sizes</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque distinctio quos, rerum ea sit eaque nesciunt aspernatur id consequatur laudantium voluptates voluptatum cumque, alias molestias facere officia! Sapiente aliquid ullam tenetur eaque adipisci quasi repudiandae laborum ea nobis. Officiis repudiandae eum debitis iure at quam doloremque. Architecto, iusto. Dolorum, eligendi?</p>
+</div>
+
+<!-- gird layout -->
+<h2>bootstrap grid layout</h2>
+
+<div class="container">
+<h4>basic grid 12 columns in a row</h4>
+<div class="row p-2">
+    <div class="col-3">
+        <div class="p-5 bg-primary">col 1</div>
+    </div>
+    <div class="col-6">
+        <div class="p-5 bg-danger">col 2</div>
+    </div>
+    <div class="col">
+        <div class="p-5 bg-warning">col 3</div>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
